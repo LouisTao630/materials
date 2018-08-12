@@ -2,7 +2,7 @@
 #coding=utf-8
 
 # 选择排序算法
-def sort_selection(nums):
+def selectionSort(nums):
     for i in range(len(nums)-1):
         minIndex = i
         for j in range(i+1,len(nums)-1):
@@ -14,4 +14,4 @@ def sort_selection(nums):
     return nums
 
 # 测试一下结果
-print(sort_selection([45, 32, 8, 33, 12, 22, 19, 97]))
+print(selectionSort([45, 32, 8, 33, 12, 22, 19, 97]))
